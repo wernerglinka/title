@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      body {
+        font-family: Helvetica, sans-serif;
+      }
+
+      title-block {
+        display: block;
+        width: 100%;
+        max-width: 600px;
+        margin: 50px auto;
+      }
+    </style>
+    <script src="lib/title.js" type="module"></script>
+    
+  </head>
+  <body>
+    
+    <title-block
+      id="title-block"
+      prefix="just saying..."
+      title="Minneapolis is a wonderful city that is very wonderful indeed" 
+      subtitle="The City of Lakes"
+      headerTag="h1"
+      titlelength="40"
+      apstyle="yes"
+    ></title-block>
+
+    <script>
+      setTimeout(() => {
+        const target = document.getElementById("title-block");
+        target.title = "Curabitur blandit tempus porttitor. Donec sed odio dui.";
+      }, 3000);
+    </script>
+
+  </body>
+</html>
