@@ -12,39 +12,43 @@ npm install titleblock
 ```
 ## Usage
 ```html
-<cloudinary-image
-  base="https://res.cloudinary.com/<your-cloud-name>/image/upload/"
-  imageid="<your-image-id>"
-  alt="Your alt text"
-></cloudinary-image>
+<title-block
+      id="title-block"
+      prefix="your prefix"
+      title="your title" 
+      subtitle="your subtitle"
+      headerTag="h1"
+      titlelength="40"
+      apstyle="yes"
+    ></title-block>
 ```
-  ## Attributes
-  | Attribute | Description | Type | Default |
-  | --------- | ----------- | ---- | ------- |
-  | base | The base URL for your Cloudinary account | String | |
-  | imageid | The image ID for your image | String | |
-  | alt | The alt text for your image | String | |
+## Attributes
+| Attribute | Type | Description |
+| --- | --- | --- |
+| prefix | String | The prefix to the title |
+| title | String | The title |
+| subtitle | String | The subtitle |
+| headerTag | String | The header tag to use for the title. Valid values are h1, h2, h3, h4, h5, and h6. Default is h1. |
+| titlelength | Number | The maximum length of the title before truncation. Default is 40. |
+| apstyle | String | If yes, the title will be converted to AP Title Case. Default is no. |
 
-  ## Styling
-  The component exposes the following CSS Custom Properties for styling:
-  | Property | Description | Default |
-  | -------- | ----------- | ------- |
-  | --image-height | The height of the image | 100% |
+## Styling
+The title block can be styled with CSS. The following CSS variables are available:
+| CSS Variable | Description |
+| --- | --- |
+| --font-family | The font family for the title block. Default is Arial, sans-serif. |
 
-  The component will fill the available width. To control the height, you can set the --image-height CSS Custom Property. To cover the whole viewport for example:
-  ```css
-  cloudinary-image {
-    --image-height: 100vh;
-  }
-  ```
 
-  ## License
-  [MIT](https://github.com/wernerglinka/cloudinaryImage/blob/main/LICENSE)
 
-  ## Author
-  [Werner Glinka](werner@glinka.co)
+  
 
-[npm-badge]: https://img.shields.io/npm/v/cloudinaryimage.svg
-[npm-url]: https://www.npmjs.com/package/cloudinaryimage
-[license-badge]: https://img.shields.io/github/license/wernerglinka/cloudinaryImage
+## License
+[MIT](https://github.com/wernerglinka/titleblock/blob/main/LICENSE)
+
+## Author
+[Werner Glinka](werner@glinka.co)
+
+[npm-badge]: https://img.shields.io/npm/v/titleblock.svg
+[npm-url]: https://www.npmjs.com/package/titleblock
+[license-badge]: https://img.shields.io/github/license/wernerglinka/titleblock
 [license-url]: LICENSE
