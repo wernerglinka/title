@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wernerglinka/title.git"
+    "url": "git+https://github.com/wernerglinka/titleblock.git"
   },
   "author": "werner@glinka.co",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wernerglinka/title/issues"
+    "url": "https://github.com/wernerglinka/titleblock/issues"
   },
-  "homepage": "https://github.com/wernerglinka/title#readme",
+  "homepage": "https://github.com/wernerglinka/titleblock#readme",
   "dependencies": {
     "light-server": "^2.9.1",
     "prettier": "^3.0.0"

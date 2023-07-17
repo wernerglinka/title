@@ -1,14 +1,14 @@
 # TitleBlock
 A Web Component for a Header
 
-The CloudinaryImage component uses progressive image loading, e.g., display a low-resolution image initially and then replace it with a high-resolution image once it becomes visible in the viewport. To achieve this, the component uses the Intersection Observer API to detect when it is in the viewport. The component will also ensure that the image maintains its aspect ratio and is styled with the appropriate CSS to prevent layout shifts.
+The title web component provides a title block with a prefix, title, and subtitle. The prefix and subtitle are optional. The title may be truncated with an ellipsis and AP Title Case may be applied to the title.
 
 [![npm: version][npm-badge]][npm-url]
 [![license: ISC][license-badge]][license-url]
 
 ## Installation
 ```bash
-npm install cloudinaryimage
+npm install titleblock
 ```
 ## Usage
 ```html
