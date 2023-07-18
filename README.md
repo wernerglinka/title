@@ -51,6 +51,14 @@ The title block can be styled with CSS. The following CSS variables are availabl
 | --subtitle-font-style | normal |
 | --subtitle-color | #000000 |
 
+To change set the color of the title to red, for example, add the following to your CSS:
+```css
+title-block {
+  --title-color: red;
+}
+```
+
+
 
 ## License
 [MIT](https://github.com/wernerglinka/titleblock/blob/main/LICENSE)
