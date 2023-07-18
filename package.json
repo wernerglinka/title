@@ -4,8 +4,8 @@
   "description": "",
   "main": "title.js",
   "scripts": {
-    "test": "light-server -s ./ -o -w 'title.js'",
-    "prettier": "prettier --write title.js"
+    "test": "light-server -s ./ -o -w 'lib/title.js'",
+    "prettier": "prettier --write lib/title.js"
   },
   "repository": {
     "type": "git",

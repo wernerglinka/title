@@ -13,7 +13,6 @@ npm install titleblock
 ## Usage
 ```html
 <title-block
-      id="title-block"
       prefix="your prefix"
       title="your title" 
       subtitle="your subtitle"
@@ -34,13 +33,24 @@ npm install titleblock
 
 ## Styling
 The title block can be styled with CSS. The following CSS variables are available:
-| CSS Variable | Description |
+| CSS Variable | Default |
 | --- | --- |
-| --font-family | The font family for the title block. Default is Arial, sans-serif. |
+| --title-font-family | serif |
+| --title-font-size | 2.5rem |
+| --title-font-weight | 700 |
+| --title-font-style | normal |
+| --title-color | #000000 |
+| --prefix-font-family | sans-serif |
+| --prefix-font-size | 1rem |
+| --prefix-font-weight | 300 |
+| --prefix-font-style | serif |
+| --prefix-color | #000000 |
+| --subtitle-font-family | sans-serif |
+| --subtitle-font-size | 1.5rem |
+| --subtitle-font-weight | 700 |
+| --subtitle-font-style | normal |
+| --subtitle-color | #000000 |
 
-
-
-  
 
 ## License
 [MIT](https://github.com/wernerglinka/titleblock/blob/main/LICENSE)
