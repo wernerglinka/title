@@ -67,6 +67,6 @@ title-block {
 [Werner Glinka](werner@glinka.co)
 
 [npm-badge]: https://img.shields.io/npm/v/titleblock.svg
-[npm-url]: https://www.npmjs.com/package/titleblock
+[npm-url]: https://www.npmjs.com/package/@wernerglinka/titleblock
 [license-badge]: https://img.shields.io/github/license/wernerglinka/titleblock
 [license-url]: LICENSE
